@@ -1,6 +1,9 @@
 name: validate-oas
 
-on: [push]
+on:
+  push:
+    branches:
+      - develop
 
 jobs:
   test_swagger_editor_validator_remote:
